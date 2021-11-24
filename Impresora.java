@@ -22,4 +22,8 @@ public class Impresora{
     public void setSiColor(boolean siColor){
         aColor = siColor;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Marca: "+marca+", "+"Color: "+aColor);
+    }
 }
