@@ -34,4 +34,9 @@ public class Ordenador
         impresora.setMarca(nuevaMarca);
         impresora.setSiColor(color);
     }
+    
+     public void imprimirDetalles(){
+        System.out.println("Numero de carpetas: " + numeroCarpetas +"| Apagado: "
+        + apagado + "| Marca impresora: " + impresora.getMarca()+ "| Impresora a color: " + impresora.getSiColor());
+    }
 }
